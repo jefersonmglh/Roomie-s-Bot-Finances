@@ -25,7 +25,7 @@ By incorporating these graphical representations, Roomie's Bot Finances enhances
 5. In the Python Environment Terminal, run the following command:
 
    ```bash
-   python3 bot_main.py   ```
+   python3 bot_main.py 
    
 6. Enjoy!
 
