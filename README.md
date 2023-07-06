@@ -1,34 +1,37 @@
 # Roomie's Bot Finances
 
-Roomie's Bot Finances is a Telegram bot application designed to assist in managing the finances of a house shared by roommates. With this application, you can easily add and track expenses submitted by users.
+O Roomie's Bot Finances é um aplicativo de bot do Telegram projetado para ajudar no gerenciamento das finanças de uma casa compartilhada por 'roommates'. Com este aplicativo, você pode facilmente adicionar e acompanhar despesas enviadas pelos usuários.
 
-## Key Features
+## Recursos Principais
 
-- **Add Expenses**: Users can submit expense details, including description and amount, directly to the Telegram bot.
-- **Expense Database**: All expenses are stored in a secure database, ensuring the integrity of financial records.
-- **Monthly Closing**: At the end of each month, Roomie's Bot Finances allows you to close the finances by calculating the fair division of expenses among all the housemates.
-- **Automatic Splitting**: Based on the number of roommates, the application automatically calculates the proportional division of expenses, simplifying the process of splitting bills.
-- **Expense Visualization**: In addition to its features, Roomie's Bot Finances also offers the option to visualize expenses through charts. The app provides two types of charts that help you analyze and understand the expenditure patterns.
+- **Adicionar Despesas**: Os usuários podem enviar detalhes das despesas, incluindo descrição e valor, diretamente para o bot do Telegram.
+- **Banco de Dados de Despesas**: Todas as despesas são armazenadas em um banco de dados seguro, garantindo a integridade dos registros financeiros.
+- **Encerramento Mensal**: No final de cada mês, o Roomie's Bot Finances permite que você encerre as finanças calculando a divisão justa das despesas entre todos os colegas de quarto.
+- **Divisão Automática**: Com base no número de colegas de quarto, o aplicativo automaticamente calcula a divisão proporcional das despesas, simplificando o processo de divisão das contas.
+- **Visualização de Despesas**: Além de suas funcionalidades, o Roomie's Bot Finances também oferece a opção de visualizar despesas por meio de gráficos. O aplicativo fornece dois tipos de gráficos que ajudam a analisar e entender os padrões de gastos.
 
-   1. **User-based Expense Chart**: This chart illustrates the expenses incurred by each individual roommate. It allows you to identify the spending behavior of each person, facilitating discussions and promoting transparency within the shared household finances.
+   1. **Gráfico de Despesas por Usuário**: Este gráfico ilustra as despesas incorridas por cada colega de quarto individualmente. Ele permite identificar o comportamento de gastos de cada pessoa, facilitando discussões e promovendo transparência nas finanças compartilhadas da casa.
+  ![user_desc](imgs/2.jpg)
+   2. **Gráfico de Despesas por Descrição**: Este gráfico mostra a distribuição de despesas com base em diferentes categorias ou descrições. Ele permite ver quais tipos de despesas contribuem mais para os gastos totais, ajudando a identificar áreas onde medidas de redução de custos podem ser implementadas.
+   ![desc_graph](imgs/3.jpg)
+Ao incorporar essas representações gráficas, o Roomie's Bot Finances aprimora sua experiência de gerenciamento financeiro, fornecendo uma visão geral visual dos seus dados de gastos. Obtenha insights valiosos sobre seus hábitos de gastos e promova uma abordagem mais informada para orçamentação e rastreamento de despesas.
 
-   2. **Description-based Expense Chart**: This chart showcases the distribution of expenses based on different categories or descriptions. It enables you to see which types of expenses contribute the most to your overall spending, assisting you in identifying areas where cost-cutting measures can be implemented.
+## Instalação
 
-By incorporating these graphical representations, Roomie's Bot Finances enhances your financial management experience, providing a visual overview of your expenditure data. Gain valuable insights into your spending habits and foster a more informed approach to budgeting and expense tracking.
-
-## Installation
-
-1. Create a Python Virtual Environment. Refer to this guide: [How to Setup Virtual Environments in Python](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
-2. Install all the necessary packages listed in requirements.txt. Use the following command: `pip install -r requirements.txt`. Learn more: [Installing Packages Using a Requirements File](https://learnpython.com/blog/python-requirements-file/#:~:text=Use%20the%20pip%20install%20%2Dr,up%20to%20date%20and%20accurate.)
-3. Create a MongoDB Atlas account (if you don't have one), obtain the MongoDB Authentication, and paste it into the .env file. See this guide: [MongoDB Atlas - Creating Database Users for Atlas Deployments](https://www.mongodb.com/docs/atlas/app-services/users/)
-4. Create a Telegram Bot, obtain the Bot's Token, and paste it into the .env file. Follow the instructions here: [How to Create a Telegram Bot](https://helpdesk.bitrix24.com/open/17622486/)
-5. In the Python Environment Terminal, run the following command:
+1. Crie um Ambiente Virtual Python. Consulte este guia: [Como?](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+2. Instale todos os pacotes necessários listados no arquivo requirements.txt. Use o seguinte comando: `pip install -r requirements.txt`. Saiba mais: [Como?](https://learnpython.com/blog/python-requirements-file/#:~:text=Use%20the%20pip%20install%20%2Dr,up%20to%20date%20and%20accurate.)
+3. Crie uma conta no MongoDB Atlas (caso não tenha), obtenha a Autenticação do MongoDB e cole-a no arquivo .env. Consulte este guia: [Como?](https://www.mongodb.com/docs/atlas/app-services/users/)
+4. Crie um Bot do Telegram, obtenha o Token do Bot e cole-o no arquivo .env. Siga as instruções aqui: [Como?](https://helpdesk.bitrix24.com/open/17622486/)
+5. No Terminal do Ambiente Python, execute o seguinte comando:
 
    ```bash
    python3 bot_main.py 
    
-6. Enjoy!
+6. Aproveite!
+   
 
-Notes:
+Notas:
 
-- This was my first app that I developed independently while learning Python. I hold it dear and decided to make it public. However, I welcome any feedback you may have!
+- Este foi o meu primeiro aplicativo que desenvolvi de forma independente enquanto aprendia Python. Tenho um carinho especial por ele e decidi torná-lo público. No entanto, agradeço qualquer feedback que você possa ter!
+
+![table](imgs/1.jpg)
