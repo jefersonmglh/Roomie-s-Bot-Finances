@@ -11,9 +11,9 @@ O Roomie's Bot Finances é um aplicativo de bot do Telegram projetado para ajuda
 - **Visualização de Despesas**: Além de suas funcionalidades, o Roomie's Bot Finances também oferece a opção de visualizar despesas por meio de gráficos. O aplicativo fornece dois tipos de gráficos que ajudam a analisar e entender os padrões de gastos.
 
    1. **Gráfico de Despesas por Usuário**: Este gráfico ilustra as despesas incorridas por cada colega de quarto individualmente. Ele permite identificar o comportamento de gastos de cada pessoa, facilitando discussões e promovendo transparência nas finanças compartilhadas da casa.
-  ![user_desc](imgs/2.jpg)
+  ![user_desc](imgs/2.jpeg)
    2. **Gráfico de Despesas por Descrição**: Este gráfico mostra a distribuição de despesas com base em diferentes categorias ou descrições. Ele permite ver quais tipos de despesas contribuem mais para os gastos totais, ajudando a identificar áreas onde medidas de redução de custos podem ser implementadas.
-   ![desc_graph](imgs/3.jpg)
+   ![desc_graph](imgs/3.jpeg)
 Ao incorporar essas representações gráficas, o Roomie's Bot Finances aprimora sua experiência de gerenciamento financeiro, fornecendo uma visão geral visual dos seus dados de gastos. Obtenha insights valiosos sobre seus hábitos de gastos e promova uma abordagem mais informada para orçamentação e rastreamento de despesas.
 
 ## Instalação
@@ -34,4 +34,4 @@ Notas:
 
 - Este foi o meu primeiro aplicativo que desenvolvi de forma independente enquanto aprendia Python. Tenho um carinho especial por ele e decidi torná-lo público. No entanto, agradeço qualquer feedback que você possa ter!
 
-![table](imgs/1.jpg)
+![table](imgs/1.jpeg)
